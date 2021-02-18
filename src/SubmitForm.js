@@ -24,7 +24,7 @@ const SubmitForm = () => {
                               <div className='header'>
                                   <h1 className='header__title'>Регистрация</h1>
                                   <div className='header__subtitle'>
-                                      Уже есть аккаунт? <a href="#">Войти</a>
+                                      Уже есть аккаунт? <a href="/">Войти</a>
                                   </div>
                               </div>
 
@@ -78,7 +78,7 @@ const SubmitForm = () => {
                                              validate={required}
                                       />
                                       <label className='checkbox__label' htmlFor='idCheck'>
-                                          Принимаю <a href="#">условия</a> использования
+                                          Принимаю <a href="/">условия</a> использования
                                       </label>
                                   </div>
 
